@@ -1,0 +1,284 @@
+:root{
+    --main-teal: rgba(14, 191, 221);
+    --main-grey: rgba(69, 73, 77);
+}
+
+/*logo*/
+
+#titre{
+    width: 10%;
+}
+
+/*fin de logo*/
+
+/*menu*/
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.nav1{
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.h1-nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.menu1{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu1 li{
+    list-style-type: none;
+}
+/*bouton*/
+#buttonh{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign{
+    border: 2px solid var(--main-teal);
+    background-color: var(--main-teal);
+    padding: 10% 20%;
+    border-radius: 25px;
+    color: white;
+}
+/*partie 2*/
+.mission{
+    background-image: url(image/montagne.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+
+
+
+.h2-2{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 200%;
+}
+
+.p2{
+    text-align: center;
+}
+/*fin de partie 2*/
+
+/*partie 3*/
+.part3{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2-3{
+    font-size: 200%;
+    color: var(--main-teal);
+}
+
+.p3{
+    text-align: center;
+}
+/*fin de partie 3*/
+
+/*partie 4*/
+.part4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-color: var(--main-teal);
+}
+
+.team{
+    padding: 50px;
+    text-align: center;
+    font-size: 200%;
+    color: white;
+}
+
+.imgteam{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; 
+}
+
+.h6-pers1{
+    margin-bottom: 0;
+}
+
+.p-pers1{
+    margin-top: 0;
+}
+
+.h6-pers2{
+    margin-bottom: 0; 
+}
+
+.p-pers2{
+    margin-top: 0;
+}
+
+.h6-pers3{
+    margin-bottom: 0;
+}
+
+.p-pers3{
+    margin-top: 0;
+}
+
+.img2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; 
+}
+
+.img3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; 
+}
+
+.buttonteam{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.bteam{
+    border: 2px solid white;
+    background-color: var(--main-teal);
+    border-radius: 25px;
+    color: white;
+    padding: 15px 35px;
+}
+/*fin de partie 4*/
+
+/*partie 5*/
+.part5{
+    width: 100%;
+    height: 600px;
+    background-image: url(image/Map.jpg);
+}
+/*fin de partie 5*/
+
+/*partie 6*/
+footer{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    background-color: var(--main-grey);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerbox{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ligne1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+.div1-6{
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+
+.ul1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+}
+
+.div2-6{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.ul2{
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+
+.li-ul2{
+    width: 20%;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.ligne2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ul3{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+}
+
+.li-ul3{
+    margin: 0 20px;
+}
+/*fin de partie 6*/
+
